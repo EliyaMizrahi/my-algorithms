@@ -1,5 +1,6 @@
 package algorithms.search;
 
+import java.io.Serializable;
 import java.util.Stack;
 
 /**
@@ -10,8 +11,12 @@ import java.util.Stack;
  * @since 26-08-2015
  */
 
-public class Solution<T> {
+public class Solution<T> implements Serializable {
  
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5858868L;
 	private Stack<T> stackState;
 	
 	/**

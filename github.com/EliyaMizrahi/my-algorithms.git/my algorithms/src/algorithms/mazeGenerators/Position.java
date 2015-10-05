@@ -1,5 +1,6 @@
 package algorithms.mazeGenerators;
 
+import java.io.Serializable;
 import java.util.Random;
 
 /**
@@ -12,7 +13,11 @@ import java.util.Random;
  * @since 09-09-2015
  */
 
-public class Position {
+public class Position implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 85263541L;
 	private static final int FACE_0 = 0;
 	private static final int FACE_1 = 1;
 	private static final int FACE_2 = 2;
